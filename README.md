@@ -101,7 +101,7 @@ cat /proc/sys/kernel/random/entropy_avail
 ## Lab 6. Create a new profile
 
 ```
-inspec init my-linux-baseline
+inspec init profile my-linux-baseline
 
 vim my-linux-baseline/controls/newbaseline.rb
 include_controls 'linux-baseline' do
